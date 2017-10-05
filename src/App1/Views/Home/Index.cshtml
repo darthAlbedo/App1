@@ -1,0 +1,11 @@
+﻿@model App1.ViewModels.HomeIndexViewModel
+<!--określamy model - został przekazany do view-->
+<html xmlns ="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Home</title>
+</head>
+<body>
+    Hi there @Model.Contact.FirstName @Model.Contact.LastName ! Your id = @Model.Contact.Id <br /> <br />
+    You work for @Model.Customer.CustomerName
+</body>
+</html>
